@@ -1,0 +1,12 @@
+body{
+  background-image: url("./screeshots/wave.svg");
+
+  /* Set a specific height */
+  height: 20px;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  }
