@@ -1,0 +1,145 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff8c00; /* Change color on hover */
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff4500; /* Change color on hover */
+}
+
+/* Style the services section */
+.service {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 5px;
+}
+
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the about us section */
+.about-us {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Style the contact section */
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f2f2f2; /* Slightly darker gray background */
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Make the website responsive for smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .service {
+        padding: 30px 0;
+    }
+
+    .about-us {
+        padding: 30px 0;
+    }
+
+    .contact {
+        padding: 30px 0;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
